@@ -1,6 +1,6 @@
-# German to English Text Translation using GPT-2 Training and Optimization using LoRA
+# English to German Text Translation using GPT-2 Training and Optimization using LoRA
 
-This project optimizes the weights of the GPT-2 Transformer model from HuggingFace to translate German text to English. It uses Low-Rank Adaptation (LoRA) to fine-tune the weights of the multi-head attention query and value matrices to improve its translation performance on text.
+This project optimizes the weights of the GPT-2 Transformer model from HuggingFace to translate English text to German. It uses Low-Rank Adaptation (LoRA) to fine-tune the weights of the multi-head attention query and value matrices to improve its translation performance on text. It subsequently uses qLoRA, or quantization, as an additional method of optimizing the weights.
 
 ## Table of Contents
 - [Installation](#installation)
